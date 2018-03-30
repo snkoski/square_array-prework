@@ -6,5 +6,5 @@ def square_array(array)
   #  index += 1
   #end
   
-  array.collect
+  array.collect {|x| x ** 2}
 end
